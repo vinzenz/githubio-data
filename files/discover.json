@@ -2576,8 +2576,8 @@
         "experimental"
       ], 
       "produces": [
-        "AuthselectDecision", 
-        "Report"
+        "Report", 
+        "AuthselectDecision"
       ], 
       "path": "../../../tut/lib/python2.7/site-packages/leapp/repository/actor_definition.py", 
       "consumes": [
