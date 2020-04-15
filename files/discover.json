@@ -2576,8 +2576,8 @@
         "experimental"
       ], 
       "produces": [
-        "AuthselectDecision", 
-        "Report"
+        "Report", 
+        "AuthselectDecision"
       ], 
       "path": "../../../tut/lib/python2.7/site-packages/leapp/repository/actor_definition.py", 
       "consumes": [
@@ -3038,8 +3038,8 @@
       ], 
       "path": "../../../tut/lib/python2.7/site-packages/leapp/repository/actor_definition.py", 
       "consumes": [
-        "PESRpmTransactionTasks", 
         "InstalledRedHatSignedRPM", 
+        "PESRpmTransactionTasks", 
         "RpmTransactionTasks"
       ], 
       "description": "\n    Filter RPM transaction events based on installed RPM packages\n\n    In order to calculate a working DNF Upgrade transaction, Leapp can collect data from multiple\n    sources and find workarounds for possible problems. This actor will filter all collected\n    workarounds and keep only those relevants to current system based on installed packages.\n    "
